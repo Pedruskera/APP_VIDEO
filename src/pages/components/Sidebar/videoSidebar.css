@@ -1,0 +1,11 @@
+.videoSidebar {
+  position: absolute; /* Define a posição como absoluta, para permitir posicionamento independente do restante da página */
+  bottom: 100px; /* Define a distância da parte inferior da página */
+  right: 2px; /* Define a distância da margem direita */
+  color: white; /* Define a cor da fonte */
+}
+
+.videoSidebar_options {
+  padding: 20px; /* Define o preenchimento interno */
+  text-align: center; /* Define o alinhamento do texto como centralizado */
+}

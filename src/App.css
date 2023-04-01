@@ -1,33 +1,35 @@
-html{
+/* Define que o scroll vertical do elemento HTML deve ser obrigatório */
+html {
   scroll-snap-type: y mandatory;
 }
 
-.App{
+/* Define as propriedades de estilo para a classe 'App' */
+.App {
   background-color: black;
-  height: 100vh;
-  display: grid;
-  place-items: center;
+  height: 100vh; /* Define a altura para 100% da altura da tela */
+  display: grid; /* Define que a visualização da página será em formato de grid */
+  place-items: center; /* Centraliza o conteúdo na página */
 }
 
-.app_videos{
+/* Define as propriedades de estilo para a classe 'app_videos' */
+.app_videos {
   height: 100vh;
   max-height: 800px;
-  width: 80%;
+  width: 80%; /* Define a largura para 80% da largura da tela */
   max-width: 500px;
-  border: 1px solid black;
-  border-radius: 20px;
-  overflow: scroll;
-  scroll-snap-type: y mandatory;
-  position: relative;
+  border: 1px solid black; /* Define uma borda de 1 pixel na cor preta */
+  border-radius: 20px; /* Define o raio do canto da borda para 20 pixels */
+  overflow: scroll; /* Habilita o scroll horizontal e vertical caso haja conteúdo além do espaço disponível */
+  scroll-snap-type: y mandatory; /* Define que o scroll vertical é obrigatório e ocorre de forma discreta */
+  position: relative; /* Define a posição do elemento como relativa */
 }
 
-/*Formatação para diferentes navegadores - 01 */
-.app_videos::-webkit-scrollbar{   
-  display: none;
+.app_videos::-webkit-scrollbar {
+  display: none; /* Define que a barra de scroll do Webkit deve ser ocultada */
 }
 
-/* Formatação para diferentes navegadores - 02
-.app_videos{
+/* Define a formatação para diferentes navegadores000(opcional) */
+/* .app_videos{
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */

@@ -1,13 +1,15 @@
-.video{
-    background-color: white;
-    height: 100%;
-    width: 100%;
-    scroll-snap-align: start;
-    position: relative;
+/* Define as características de estilo da classe .video*/
+.video {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  scroll-snap-align: start; /*Permite que a rolagem do mouse "encaixe" o vídeo corretamente*/
+  position: relative; /* Posiciona o elemento de forma relativa para outros elementos da página*/
 }
 
-.video_player{
-    height: 100%;
-    width: 100%;
-    object-fit: fill;
+/*Define as características de estilo da classe .video_player*/
+.video_player {
+  height: 100%;
+  width: 100%;
+  object-fit: fill; /* Especifica como a mídia deve ser dimensionada e colocada dentro do seu contêiner*/
 }
