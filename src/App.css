@@ -3,6 +3,7 @@ html {
   scroll-snap-type: y mandatory;
 }
 
+
 /* Define as propriedades de estilo para a classe 'App' */
 .App {
   background-color: black;
@@ -33,3 +34,10 @@ html {
   -ms-overflow-style: none;
   scrollbar-width: none;
 } */
+
+@media only screen and (max-width: 440px){
+  .app_videos {
+    width: 100%;
+    height: 100vh;
+  }
+}

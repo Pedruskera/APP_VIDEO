@@ -2,7 +2,7 @@
 import React, { useRef, useState } from "react";
 
 // Importa o arquivo CSS 'video.css'
-import "./video.css";
+import "./Video.css";
 
 // Importa os componentes VideoFooter e VideoSidebar dos respectivos arquivos
 import VideoFooter from "./components/Footer/VideoFooter";

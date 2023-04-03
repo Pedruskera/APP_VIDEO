@@ -9,3 +9,9 @@
   padding: 20px; /* Define o preenchimento interno */
   text-align: center; /* Define o alinhamento do texto como centralizado */
 }
+
+@media only screen and (max-width: 440px){
+  .videoSidebar{
+    top: 46%;
+  }
+}

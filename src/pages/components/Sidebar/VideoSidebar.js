@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./videoSidebar.css";
+import "./VideoSidebar.css";
 import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
 import FavoriteIcon from "@mui/icons-material/Favorite";
 import ChatIcon from "@mui/icons-material/Chat";

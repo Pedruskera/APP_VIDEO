@@ -1,5 +1,5 @@
 import React from "react";
-import "./videoFooter.css"; // Importa o estilo do componente
+import "./VideoFooter.css"; // Importa o estilo do componente
 import LibraryMusicIcon from "@mui/icons-material/LibraryMusic"; // Importa o ícone de música
 
 function VideoFooter({ name, description, music }) {
